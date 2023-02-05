@@ -183,8 +183,8 @@ def main():
 
     df["season"] = df.apply(lambda x: date_to_season(x.date_joined), axis=1)
 
-    correct_clubs = pd.DataFrame([{"player_id": 73901, "prev_club": "Liverpool"},
-                {"player_id": 78589, "prev_club": "Cardiff City"}]).sort_values("player_id")
+    correct_clubs = pd.DataFrame([{"player_id": "73901", "prev_club": "Liverpool"},
+                {"player_id": "78589", "prev_club": "Cardiff City"}]).sort_values("player_id")
 
     club_updates = df[df.player_id.isin(correct_clubs.player_id)].sort_values("player_id").copy()
 
