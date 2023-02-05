@@ -241,7 +241,7 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 3920,Richard Jobson,Tranmere,2001-03-02,2001-09-28,Free,Man City,Rochdale,Transfer,2000/01
 3920,Richard Jobson,Tranmere,2000-12-29,2001-03-01,Loan,Man City,,Loan,2000/01
 50065,John Johnson,Tranmere,2008-11-24,2009-01-01,Loan,Middlesbrough,,Loan,2008/09
-78589,Danny Johnson,Tranmere,2014-10-20,2015-08-06,Youth,,,Loan,2014/15
+78589,Danny Johnson,Tranmere,2014-10-20,2015-08-06,Youth,Cardiff City,,Loan,2014/15
 44094,Michael Johnston,Tranmere,2006-07-01,2008-05-31,Trainee,Trainee,Bangor City,Trainee,2006/07
 120094,Charlie Jolley,Tranmere,2021-01-25,,Undisc.,Wigan,,Transfer,2020/21
 3982,Gary Jones,Tranmere,2002-09-30,2005-07-01,Free,Nottm Forest,Grimsby,Transfer,2002/03
@@ -398,7 +398,7 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 54992,Stefan Payne,Tranmere,2019-06-28,2021-01-25,Free,Bristol R,Grimsby,Transfer,2019/20
 70729,Matthew Pennington,Tranmere,2014-01-01,2014-05-04,Loan,Everton,,Loan,2013/14
 22779,David Perkins,Tranmere,2019-01-05,2020-08-16,Undisc.,Wigan,Fylde,Transfer,2018/19
-73901,Kristoffer Peterson,Tranmere,2013-07-01,2014-08-27,Youth,,,Loan,2013/14
+73901,Kristoffer Peterson,Tranmere,2013-07-01,2014-08-27,Youth,Liverpool,,Loan,2013/14
 73677,Luke Pilling,Tranmere,2013-07-01,2020-09-04,,,Notts Co,,2013/14
 104291,Jordan Ponticelli,Tranmere,2019-07-10,2020-01-22,Loan,Coventry,,Loan,2019/20
 35630,Darren Potter,Tranmere,2019-06-28,2020-08-01,Free,MK Dons,,Transfer,2019/20
