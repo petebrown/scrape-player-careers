@@ -1,0 +1,30 @@
+name: scrape-players-careers
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 17 * * 0,3,4'
+jobs:
+  scrape:
+    # This is never likely to change
+    runs-on: ubuntu-latest
+    steps:
+      # Download all of the code from your repo
+      - name: Check out this repo
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11.0'
+      - name: Install necessary python packages
+        run: pip install pandas beautifulsoup4 requests lxml
+      # Make sure scraper filename matches the filename in the repo
+      - name: Run the scraping script
+        run: python scrape-player-careers.py
+      - name: Commit and push if content changed
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
