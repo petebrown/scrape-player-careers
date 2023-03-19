@@ -215,7 +215,7 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 46619,Marcus Holness,Tranmere,2014-06-27,2016-06-01,Free,Rochdale,,Transfer,2014/15
 40982,Evan Horwood,Tranmere,2013-06-19,2014-07-02,Free,Carlisle,Northampton,Transfer,2013/14
 17197,Russell Howarth,Tranmere,2002-11-06,2005-06-08,Signed,York,Bradford,Transfer,2002/03
-144033,Rhys Hughes,Tranmere,2022-07-01,2023-01-18,Free,Everton,Chester,Transfer,2022/23
+144033,Rhys Hughes,Tranmere,2022-07-01,,Free,Everton,,Transfer,2022/23
 41945,Jeff Hughes,Tranmere,2016-07-01,2018-07-01,Free,Cambridge U,Larne,Transfer,2016/17
 41945,Jeff Hughes,Tranmere,2016-01-02,2016-06-01,Loan,Fleetwood,,Loan,2015/16
 72606,Jordan Hugill,Tranmere,2015-02-26,2015-03-25,Loan,Preston,,Loan,2014/15
