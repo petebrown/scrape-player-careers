@@ -10,11 +10,11 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 69292,James Alabi,Tranmere,2017-07-10,2017-10-19,Loan,Chester,,Loan,2017/18
 79,John Aldridge,Tranmere,1991-07-11,1998-05-31,250000,Liverpool,,Transfer,1991/92
 19812,Paul Aldridge,Tranmere,1999-08-01,2002-03-28,Youth,,Macclesfield,Trainee,1999/00
-107,Graham Allen,Tranmere,1998-08-29,1998-09-22,Loan,Everton,,Loan,1998/99
 107,Graham Allen,Tranmere,1998-09-23,2004-06-15,Free,Everton,Rushden,Transfer,1998/99
+107,Graham Allen,Tranmere,1998-08-29,1998-09-22,Loan,Everton,,Loan,1998/99
 122,Wayne Allison,Tranmere,1999-09-03,2002-07-31,300000,Swindon,Sheff Utd,Transfer,1999/00
-53268,Lateef Elford Alliyu,Tranmere,2010-08-01,2010-12-31,Loan,West Brom,,Loan,2010/11
 53268,Lateef Elford Alliyu,Tranmere,2012-01-17,2012-02-17,Loan,West Brom,,Loan,2011/12
+53268,Lateef Elford Alliyu,Tranmere,2010-08-01,2010-12-31,Loan,West Brom,,Loan,2010/11
 51974,Louis Almond,Tranmere,2016-09-21,2017-07-01,Free,Blackpool,York,Transfer,2016/17
 55423,David Amoo,Tranmere,2013-01-09,2013-06-14,Free,Liverpool,Carlisle,Transfer,2012/13
 163,Iain Anderson,Tranmere,2003-03-27,2003-05-04,Loan,Preston,,Loan,2002/03
@@ -26,8 +26,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 55556,Chris Atkinson,Tranmere,2013-07-18,2014-01-01,Loan,Huddersfield,,Loan,2013/14
 306,Phil Babb,Tranmere,2000-01-21,2000-02-20,Loan,Liverpool,,Loan,1999/00
 52216,Kithson Bain,Tranmere,2009-08-01,2010-11-01,Trainee,Trainee,,Trainee,2009/10
-44204,Zoumana Bakayogo,Tranmere,2018-07-09,2019-08-01,Free,Leicester,Notts Co,Transfer,2018/19
 44204,Zoumana Bakayogo,Tranmere,2009-07-01,2013-07-22,Free,Millwall,Leicester,Transfer,2009/10
+44204,Zoumana Bakayogo,Tranmere,2018-07-09,2019-08-01,Free,Leicester,Notts Co,Transfer,2018/19
 51901,Thomas Baker,Tranmere,2009-07-01,2010-05-31,Trainee,Trainee,,Trainee,2009/10
 55846,Ollie Banks,Tranmere,2018-07-01,2021-01-18,Free,Oldham,Barrow,Transfer,2018/19
 55846,Ollie Banks,Tranmere,2017-11-01,2018-01-11,Loan,Chesterfield,,Loan,2017/18
@@ -38,8 +38,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 53459,Abdulai Bell-Baggie,Tranmere,2012-08-01,2015-03-26,Free,Yeovil,Bristol R,Transfer,2012/13
 55546,Liam Benson,Tranmere,2010-08-01,2011-05-31,,,Rhyl,,2010/11
 626,David Beresford,Tranmere,2003-11-04,2005-07-04,Free,Plymouth,Macclesfield,Transfer,2003/04
-47926,Paul Black,Tranmere,2012-07-05,2013-05-22,Free,Oldham,Mansfield,Transfer,2012/13
 11685,Michael Black,Tranmere,1999-07-07,2001-01-31,Free,Arsenal,Southend,Transfer,1999/00
+47926,Paul Black,Tranmere,2012-07-05,2013-05-22,Free,Oldham,Mansfield,Transfer,2012/13
 128728,Joe Blackham,Tranmere,2020-01-06,2021-07-01,Unknown,,,Unknown,2019/20
 55545,Maxime Blanchard,Tranmere,2010-08-01,2011-05-31,,,Plymouth,,2010/11
 66526,Nathan Blissett,Tranmere,2015-08-21,2015-10-04,Loan,Bristol R,,Loan,2015/16
@@ -51,9 +51,9 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 44040,Peter Brezovan,Tranmere,2014-09-01,2015-07-25,Free,Brighton,,Transfer,2014/15
 133368,Ethan Bristow,Tranmere,2022-06-14,,Free,Reading,,Transfer,2022/23
 1010,Marlon Broomes,Tranmere,2008-07-01,2011-05-31,Free,Stoke,,Transfer,2008/09
-38608,Paul Brown,Tranmere,2004-07-01,2006-05-31,Trainee,Trainee,Barrow,Trainee,2004/05
-46696,Junior Brown,Tranmere,2014-03-06,2014-06-13,Loan,Fleetwood,,Loan,2013/14
 53334,Kaylden Brown,Tranmere,2010-08-12,2010-09-05,Loan,West Brom,,Loan,2010/11
+46696,Junior Brown,Tranmere,2014-03-06,2014-06-13,Loan,Fleetwood,,Loan,2013/14
+38608,Paul Brown,Tranmere,2004-07-01,2006-05-31,Trainee,Trainee,Barrow,Trainee,2004/05
 40576,Alex Bruce,Tranmere,2005-08-17,2005-10-17,Loan,Birmingham,,Loan,2005/06
 55881,Gerardo Bruna,Tranmere,2014-08-11,2014-11-15,Free,Liverpool,Whitehawk,Transfer,2014/15
 62991,Ryan Brunt,Tranmere,2012-01-27,2012-05-06,Loan,Stoke,,Loan,2011/12
@@ -65,9 +65,9 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 27015,Shane Cansdell-Sherriff,Tranmere,2006-07-15,2008-06-30,Free,Leeds,Shrewsbury,Transfer,2006/07
 60564,Jake Caprice,Tranmere,2018-07-01,2020-08-06,Free,Woking,Exeter,Transfer,2018/19
 30472,Sebastien Carole,Tranmere,2009-07-01,2010-01-11,Signed,Darlington (old),Brighton,Transfer,2009/10
-64444,Jake Cassidy,Tranmere,2012-08-02,2013-01-05,Loan,Wolves,,Loan,2012/13
-64444,Jake Cassidy,Tranmere,2014-01-24,2014-06-13,Loan,Wolves,,Loan,2013/14
 64444,Jake Cassidy,Tranmere,2012-01-01,2012-05-06,Loan,Wolves,,Loan,2011/12
+64444,Jake Cassidy,Tranmere,2014-01-24,2014-06-13,Loan,Wolves,,Loan,2013/14
+64444,Jake Cassidy,Tranmere,2012-08-02,2013-01-05,Loan,Wolves,,Loan,2012/13
 55476,Timothy Cathalina,Tranmere,2010-07-01,2011-05-31,,,,,2010/11
 9801,Dave Challinor,Tranmere,1994-07-18,2002-01-11,Signed,Brombrough P,Stockport,Transfer,1994/95
 104579,Logan Chalmers,Tranmere,2023-01-16,,Loan,Dundee Utd,,Loan,2022/23
@@ -97,15 +97,15 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 27359,Eugene Dadi,Tranmere,2003-08-08,2005-08-25,Free,Aberdeen,Nottm Forest,Transfer,2003/04
 36344,Chris Dagnall,Tranmere,2003-09-13,2006-07-01,,,Rochdale,,2003/04
 36344,Chris Dagnall,Tranmere,2019-01-31,2019-10-07,Free,Crewe,Yeovil,Transfer,2018/19
-68398,Donervon Daniels,Tranmere,2012-11-22,2013-03-14,Loan,West Brom,,Loan,2012/13
 44154,Luke Daniels,Tranmere,2009-07-21,2010-06-01,Loan,West Brom,,Loan,2009/10
+68398,Donervon Daniels,Tranmere,2012-11-22,2013-03-14,Loan,West Brom,,Loan,2012/13
 33325,Neil Danns,Tranmere,2019-09-19,2020-08-01,Free,Bury,Connah's Q,Transfer,2019/20
 54244,Liam Darville,Tranmere,2010-08-05,2010-11-14,Loan,Leeds,,Loan,2010/11
 41795,Steve Davies,Tranmere,2005-07-01,2008-06-12,Trainee,Trainee,Derby,Trainee,2005/06
 41823,Scott Davies,Tranmere,2015-07-01,2022-07-01,Free,Fleetwood,,Transfer,2015/16
 76807,Tom Davies,Tranmere,2021-06-09,,Free,Bristol R,,Transfer,2021/22
-79797,Liam Davies,Tranmere,2013-07-01,2016-06-01,Free,,Chester,Transfer,2013/14
 69047,Ben Davies,Tranmere,2014-09-19,2014-10-24,Loan,Preston,,Loan,2014/15
+79797,Liam Davies,Tranmere,2013-07-01,2016-06-01,Free,,Chester,Transfer,2013/14
 66040,Adam Dawson,Tranmere,2015-09-11,2015-12-11,Loan,Notts Co,,Loan,2015/16
 66040,Adam Dawson,Tranmere,2016-11-08,2018-07-05,Unknown,Nuneaton,Southport,Unknown,2016/17
 15091,Martin Devaney,Tranmere,2011-08-02,2012-05-31,Free,Barnsley,Bohemians D.,Transfer,2011/12
@@ -113,8 +113,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 111841,James Devine,Tranmere,2018-04-24,2019-05-06,,,,,2017/18
 72487,Emmanuel Dieseruvwe,Tranmere,2021-06-28,2022-07-01,Free,Salford,Halifax,Transfer,2021/22
 102625,James Divine,Tranmere,2016-07-01,2019-01-01,Unknown,,,Unknown,2016/17
-74169,Janoi Donacien,Tranmere,2014-08-18,2015-01-04,Loan,Aston Villa,,Loan,2014/15
 74169,Janoi Donacien,Tranmere,2015-03-06,2015-05-03,Loan,Aston Villa,,Loan,2014/15
+74169,Janoi Donacien,Tranmere,2014-08-18,2015-01-04,Loan,Aston Villa,,Loan,2014/15
 49743,Ryan Donaldson,Tranmere,2011-09-16,2011-10-16,Loan,Newcastle,,Loan,2011/12
 51374,George Donnelly,Tranmere,2014-09-01,2015-07-25,Signed,Macclesfield,,Transfer,2014/15
 57274,Rory Donnelly,Tranmere,2015-01-08,2015-05-03,Loan,Swansea,,Loan,2014/15
@@ -125,8 +125,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 45280,Adam Dugdale,Tranmere,2015-01-28,2015-06-08,Free,Crewe,Morecambe,Transfer,2014/15
 45280,Adam Dugdale,Tranmere,2013-08-30,2013-10-01,Loan,Barrow,,Loan,2013/14
 80683,Mitch Duggan,Tranmere,2014-07-01,2018-07-01,Youth,,Flint Town U,Trainee,2014/15
-80291,Jack Dunn,Tranmere,2017-07-01,2018-06-01,Free,Liverpool,Southport,Transfer,2017/18
 80291,Jack Dunn,Tranmere,2017-01-31,2017-05-15,Loan,Liverpool,,Loan,2016/17
+80291,Jack Dunn,Tranmere,2017-07-01,2018-06-01,Free,Liverpool,Southport,Transfer,2017/18
 146009,Dylan Dwyer,Tranmere,2021-11-08,2022-07-01,Unknown,,,Unknown,2021/22
 52660,Nathan Eccleston,Tranmere,2012-10-26,2012-11-30,Loan,Blackpool,,Loan,2012/13
 20578,Gareth Edds,Tranmere,2008-06-10,2010-05-31,Free,Bradford,,Transfer,2008/09
@@ -136,8 +136,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 17470,Kevin Ellison,Tranmere,2006-06-22,2007-06-26,Signed,Chester,Chester,Transfer,2006/07
 10608,Delroy Facey,Tranmere,2005-08-31,2006-07-04,Free,Hull,Rotherham,Transfer,2005/06
 67060,Matthias Fanimo,Tranmere,2014-09-11,2014-11-11,Loan,West Ham,,Loan,2014/15
-46973,Liam Feeney,Tranmere,2020-09-17,2021-06-01,Loan,Blackburn U23,,Loan,2020/21
 46973,Liam Feeney,Tranmere,2021-06-17,2022-01-26,Free,Blackpool,Scunthorpe,Transfer,2021/22
+46973,Liam Feeney,Tranmere,2020-09-17,2021-06-01,Loan,Blackburn U23,,Loan,2020/21
 107023,Morgan Feeney,Tranmere,2020-01-31,2020-07-01,Loan,Everton,,Loan,2019/20
 70884,Shamir Fenelon,Tranmere,2014-11-21,2015-02-26,Loan,Brighton,,Loan,2014/15
 78996,Scott Fenwick,Tranmere,2016-03-24,2016-06-01,Loan,Hartlepool,,Loan,2015/16
@@ -153,9 +153,9 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 51687,Ryan Fraughan,Tranmere,2009-07-01,2011-05-31,Trainee,Trainee,Stockport,Trainee,2009/10
 53388,Dan Gardner,Tranmere,2015-03-02,2015-04-02,Loan,Chesterfield,,Loan,2014/15
 92850,Shamal George,Tranmere,2018-07-24,2019-01-02,Loan,Liverpool,,Loan,2018/19
-54425,Ben Gibson,Tranmere,2013-03-15,2013-04-28,Loan,Middlesbrough,,Loan,2012/13
-14769,Neil Gibson,Tranmere,1997-08-01,2000-05-31,Trainee,Trainee,Sheff Wed,Trainee,1997/98
 54425,Ben Gibson,Tranmere,2012-07-01,2012-12-02,Loan,Middlesbrough,,Loan,2012/13
+14769,Neil Gibson,Tranmere,1997-08-01,2000-05-31,Trainee,Trainee,Sheff Wed,Trainee,1997/98
+54425,Ben Gibson,Tranmere,2013-03-15,2013-04-28,Loan,Middlesbrough,,Loan,2012/13
 2866,Wayne Gill,Tranmere,2000-07-05,2001-10-12,Free,Blackburn,Oldham,Transfer,2000/01
 14601,Matt Gill,Tranmere,2014-05-29,2015-07-25,Free,Bristol R,,Transfer,2013/14
 99454,Harvey Gilmour,Tranmere,2018-07-09,2020-08-01,Unknown,Sheff Utd,Stockport,Unknown,2018/19
@@ -179,8 +179,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 77160,Evan Gumbs,Tranmere,2014-08-01,2020-08-01,,,Warrington,,2014/15
 50869,Gavin Gunning,Tranmere,2009-08-06,2009-09-06,Loan,Blackburn,,Loan,2009/10
 3185,Paul Hall,Tranmere,2004-03-25,2005-06-08,Free,Walsall,Chesterfield,Transfer,2003/04
-3210,Des Hamilton,Tranmere,2000-10-24,2000-11-01,Loan,Newcastle,,Loan,2000/01
 3210,Des Hamilton,Tranmere,2001-01-11,2001-05-07,Loan,Newcastle,,Loan,2000/01
+3210,Des Hamilton,Tranmere,2000-10-24,2000-11-01,Loan,Newcastle,,Loan,2000/01
 43779,Jay Harris,Tranmere,2015-07-01,2019-07-02,Free,Chester,Macclesfield,Transfer,2015/16
 26297,Danny Harrison,Tranmere,2012-07-01,2013-07-01,Free,Rotherham,Chester,Trainee,2012/13
 26297,Danny Harrison,Tranmere,2001-07-01,2007-05-25,Youth,,Rotherham,Trainee,2001/02
@@ -195,10 +195,10 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 11878,Dirk Hebel,Tranmere,1997-09-03,1998-08-25,Free,B'raspor DNU,Brentford,Transfer,1997/98
 58504,Kane Hemmings,Tranmere,2022-01-13,,Undisc.,Dundee,,Transfer,2021/22
 93064,Regan Hendry,Tranmere,2023-01-31,,Loan,Forest Green,,Loan,2022/23
-3433,Nick Henry,Tranmere,1999-07-02,2002-07-04,Free,Sheff Utd,Scarborough,Transfer,1999/00
-44093,Paul Henry,Tranmere,2006-07-01,2009-05-31,Trainee,Trainee,,Trainee,2006/07
 78694,Dylan Mottley Henry,Tranmere,2017-10-02,2018-01-01,Loan,Bradford,,Loan,2017/18
 78694,Dylan Mottley Henry,Tranmere,2018-08-17,2019-01-03,Loan,Tranmere,,Loan,2018/19
+44093,Paul Henry,Tranmere,2006-07-01,2009-05-31,Trainee,Trainee,,Trainee,2006/07
+3433,Nick Henry,Tranmere,1999-07-02,2002-07-04,Free,Sheff Utd,Scarborough,Transfer,1999/00
 81732,Rushian Hepburn-Murphy,Tranmere,2019-08-01,2020-02-27,Loan,Aston Villa,,Loan,2019/20
 96403,Mateusz Hewelt,Tranmere,2022-01-31,,Loan,Everton U21,,Loan,2021/22
 35555,Michael Higdon,Tranmere,2016-02-11,2016-12-01,Signed,Sheff Utd,Bangor City,Transfer,2015/16
@@ -210,50 +210,51 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 14771,Richard Hinds,Tranmere,1998-08-01,2003-06-06,Youth,,Hull,Trainee,1998/99
 162707,Ben Hockenhull,Tranmere,2022-06-10,,Free,Brentford,,Transfer,2022/23
 62951,Liam Hogan,Tranmere,2015-07-01,2016-05-18,Free,Fleetwood,Gateshead,Transfer,2015/16
-46677,Danny Holmes,Tranmere,2011-06-27,2015-06-24,Free,The New Saints,Newport Co,Transfer,2011/12
 46677,Danny Holmes,Tranmere,2007-07-01,2009-07-01,Trainee,Trainee,The New Saints,Trainee,2007/08
+46677,Danny Holmes,Tranmere,2011-06-27,2015-06-24,Free,The New Saints,Newport Co,Transfer,2011/12
 46619,Marcus Holness,Tranmere,2014-06-27,2016-06-01,Free,Rochdale,,Transfer,2014/15
 40982,Evan Horwood,Tranmere,2013-06-19,2014-07-02,Free,Carlisle,Northampton,Transfer,2013/14
+115876,Florent Hoti,Tranmere,2023-03-01,,,Dundee Utd,,,2022/23
 17197,Russell Howarth,Tranmere,2002-11-06,2005-06-08,Signed,York,Bradford,Transfer,2002/03
-144033,Rhys Hughes,Tranmere,2022-07-01,,Free,Everton,,Transfer,2022/23
 41945,Jeff Hughes,Tranmere,2016-07-01,2018-07-01,Free,Cambridge U,Larne,Transfer,2016/17
 41945,Jeff Hughes,Tranmere,2016-01-02,2016-06-01,Loan,Fleetwood,,Loan,2015/16
+144033,Rhys Hughes,Tranmere,2022-07-01,,Free,Everton,,Transfer,2022/23
 72606,Jordan Hugill,Tranmere,2015-02-26,2015-03-25,Loan,Preston,,Loan,2014/15
-18869,Iain Hume,Tranmere,2015-01-29,2015-07-01,Free,Preston,Kolkheti Poti,Transfer,2014/15
 18869,Iain Hume,Tranmere,1999-08-01,2005-08-31,Trainee,Trainee,Leicester,Trainee,1999/00
+18869,Iain Hume,Tranmere,2015-01-29,2015-07-01,Free,Preston,Kolkheti Poti,Transfer,2014/15
 71423,Michael Ihiekwe,Tranmere,2014-06-18,2017-05-25,Free,Wolves,Rotherham,Transfer,2014/15
 94139,Sam Ilesanmi,Tranmere,2016-07-01,2017-07-14,Unknown,,Llandudno,Unknown,2016/17
 3810,Kenny Irons,Tranmere,1989-11-09,1999-06-14,Trainee,Trainee,Huddersfield,Trainee,1989/90
-51765,Marlon Jackson,Tranmere,2015-08-26,2015-12-01,Free,Eastleigh,Oxford C,Transfer,2015/16
 3855,Mike Jackson,Tranmere,2004-05-25,2006-06-23,Free,Preston,Blackpool,Transfer,2003/04
 3855,Mike Jackson,Tranmere,2002-12-18,2003-01-20,Loan,Bury,,Loan,2002/03
+51765,Marlon Jackson,Tranmere,2015-08-26,2015-12-01,Free,Eastleigh,Oxford C,Transfer,2015/16
 80605,Ben Jago,Tranmere,2014-07-01,2016-08-27,Youth,,Llandudno,Trainee,2014/15
 72069,Calaum Jahraldo-Martin,Tranmere,2014-11-20,2015-01-01,Loan,Hull,,Loan,2014/15
 38609,Oliver James,Tranmere,2004-07-01,2007-07-03,Trainee,Trainee,Forest Green,Trainee,2004/05
 108098,Kyle Jameson,Tranmere,2022-07-14,,Free,Fylde,,Transfer,2022/23
-36541,Steven Jennings,Tranmere,2014-10-27,2015-01-04,Loan,Coventry,,Loan,2014/15
-36541,Steven Jennings,Tranmere,2013-10-22,2014-07-01,Free,Motherwell,Port Vale,Transfer,2013/14
 36541,Steven Jennings,Tranmere,2003-08-01,2009-07-02,Trainee,Trainee,Motherwell,Trainee,2003/04
-36541,Steven Jennings,Tranmere,2015-01-05,2017-07-01,Signed,Port Vale,Southport,Transfer,2014/15
-63609,Connor Jennings,Tranmere,2016-07-01,2020-07-16,Free,Scunthorpe,Stockport,Transfer,2016/17
 55479,Dale Jennings,Tranmere,2010-07-01,2011-07-13,Trainee,Trainee,B Munich,Trainee,2010/11
+63609,Connor Jennings,Tranmere,2016-07-01,2020-07-16,Free,Scunthorpe,Stockport,Transfer,2016/17
+36541,Steven Jennings,Tranmere,2013-10-22,2014-07-01,Free,Motherwell,Port Vale,Transfer,2013/14
+36541,Steven Jennings,Tranmere,2014-10-27,2015-01-04,Loan,Coventry,,Loan,2014/15
+36541,Steven Jennings,Tranmere,2015-01-05,2017-07-01,Signed,Port Vale,Southport,Transfer,2014/15
 53233,Jake Jervis,Tranmere,2012-10-19,2012-11-19,Loan,Birmingham,,Loan,2012/13
-3920,Richard Jobson,Tranmere,2001-03-02,2001-09-28,Free,Man City,Rochdale,Transfer,2000/01
 3920,Richard Jobson,Tranmere,2000-12-29,2001-03-01,Loan,Man City,,Loan,2000/01
-50065,John Johnson,Tranmere,2008-11-24,2009-01-01,Loan,Middlesbrough,,Loan,2008/09
+3920,Richard Jobson,Tranmere,2001-03-02,2001-09-28,Free,Man City,Rochdale,Transfer,2000/01
 78589,Danny Johnson,Tranmere,2014-10-20,2015-08-06,Youth,Cardiff City,,Loan,2014/15
+50065,John Johnson,Tranmere,2008-11-24,2009-01-01,Loan,Middlesbrough,,Loan,2008/09
 44094,Michael Johnston,Tranmere,2006-07-01,2008-05-31,Trainee,Trainee,Bangor City,Trainee,2006/07
 120094,Charlie Jolley,Tranmere,2021-01-25,,Undisc.,Wigan,,Transfer,2020/21
-3982,Gary Jones,Tranmere,2002-09-30,2005-07-01,Free,Nottm Forest,Grimsby,Transfer,2002/03
 3990,Lee Jones,Tranmere,1997-05-30,2000-07-03,100000,Liverpool,Barnsley,Transfer,1996/97
-57204,Andrai Jones,Tranmere,2013-08-16,2013-09-16,Loan,Barnsley,,Loan,2013/14
 3990,Lee Jones,Tranmere,1997-03-27,1997-05-31,Loan,Liverpool,,Loan,1996/97
-146008,Ethan Jones,Tranmere,2021-11-08,2022-09-27,Unknown,,Bala Town,Unknown,2021/22
-126479,Ben Jones,Tranmere,2019-11-01,2023-01-01,Unknown,,,Unknown,2019/20
-43715,Mike Jones,Tranmere,2005-07-01,2008-08-01,Youth,,Bury,Trainee,2005/06
 89957,Ethan Jones,Tranmere,2016-09-01,2016-11-01,Loan,Shrewsbury,,Loan,2016/17
-3982,Gary Jones,Tranmere,2002-08-29,2002-09-29,Loan,Nottm Forest,,Loan,2002/03
+3982,Gary Jones,Tranmere,2002-09-30,2005-07-01,Free,Nottm Forest,Grimsby,Transfer,2002/03
+43715,Mike Jones,Tranmere,2005-07-01,2008-08-01,Youth,,Bury,Trainee,2005/06
+146008,Ethan Jones,Tranmere,2021-11-08,2022-09-27,Unknown,,Bala Town,Unknown,2021/22
 3982,Gary Jones,Tranmere,1993-07-05,2000-07-01,Trainee,Trainee,Nottm Forest,Trainee,1993/94
+57204,Andrai Jones,Tranmere,2013-08-16,2013-09-16,Loan,Barnsley,,Loan,2013/14
+3982,Gary Jones,Tranmere,2002-08-29,2002-09-29,Loan,Nottm Forest,,Loan,2002/03
+126479,Ben Jones,Tranmere,2019-11-01,2023-01-01,Unknown,,,Unknown,2019/20
 47242,Michael Kay,Tranmere,2011-07-01,2013-07-01,Free,Sunderland,Chester,Transfer,2011/12
 47242,Michael Kay,Tranmere,2011-01-06,2011-05-31,Loan,Sunderland,,Loan,2010/11
 89457,Josh Kay,Tranmere,2017-11-01,2017-12-01,Loan,Barnsley,,Loan,2017/18
@@ -266,28 +267,28 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 65015,Jake Kirby,Tranmere,2012-01-01,2018-07-01,Trainee,Trainee,Stockport,Trainee,2011/12
 104997,Nya Kirby,Tranmere,2021-01-22,2021-06-01,Loan,Crystal Palace,,Loan,2020/21
 42622,Nat Knight-Percival,Tranmere,2021-06-10,2022-07-01,Free,Carlisle,Kidderminster,Transfer,2021/22
-13834,Jason Koumas,Tranmere,2013-08-02,2015-07-10,Free,Wigan,,Transfer,2013/14
 13834,Jason Koumas,Tranmere,1998-02-20,2002-08-29,Trainee,Trainee,West Brom,Trainee,1997/98
+13834,Jason Koumas,Tranmere,2013-08-02,2015-07-10,Free,Wigan,,Transfer,2013/14
 4316,Dariusz Kubicki,Tranmere,1998-03-03,1998-05-31,Loan,Wolves,,Loan,1997/98
-50844,Joss Labadie,Tranmere,2010-03-24,2010-06-01,Loan,West Brom,,Loan,2009/10
 50844,Joss Labadie,Tranmere,2010-06-30,2012-07-09,Free,West Brom,Notts Co,Transfer,2010/11
+50844,Joss Labadie,Tranmere,2010-03-24,2010-06-01,Loan,West Brom,,Loan,2009/10
 45088,Marc Laird,Tranmere,2014-07-10,2015-06-19,Free,Leyton Orient,Yeovil,Transfer,2014/15
-71462,Paul Lewis,Tranmere,2020-08-17,2021-06-10,Free,Cambridge U,Northampton,Transfer,2020/21
 71462,Paul Lewis,Tranmere,2022-07-01,,Free,Cambridge U,,Transfer,2022/23
+71462,Paul Lewis,Tranmere,2020-08-17,2021-06-10,Free,Cambridge U,Northampton,Transfer,2020/21
 32159,Paul Linwood,Tranmere,2002-07-01,2006-07-01,Trainee,Trainee,Chester,Trainee,2002/03
 56548,Danny Lloyd,Tranmere,2020-11-10,2021-07-06,Free,Salford,Gillingham,Transfer,2020/21
 47194,Shaleum Logan,Tranmere,2009-07-24,2010-06-01,Loan,Man City,,Loan,2009/10
 165325,Arthur Lomax,Tranmere,2022-07-01,,,,,,2022/23
 111843,Nick Long,Tranmere,2017-07-01,2019-06-30,,,,,2017/18
-32243,Tyrone Loran,Tranmere,2003-01-04,2003-05-10,Loan,Man City,,Loan,2002/03
 32243,Tyrone Loran,Tranmere,2003-05-23,2005-01-22,Signed,Volendam (old),RBC Roosendaal,Transfer,2002/03
+32243,Tyrone Loran,Tranmere,2003-01-04,2003-05-10,Loan,Man City,,Loan,2002/03
 21292,Ryan Lowe,Tranmere,2013-06-21,2014-05-19,Free,Sheff Wed,Bury,Transfer,2013/14
 102630,Callum Lucy,Tranmere,2016-01-01,2017-07-01,,,,,2015/16
 96015,Calum MacDonald,Tranmere,2021-02-01,2022-07-01,Loan,Blackpool,,Loan,2020/21
 96015,Calum MacDonald,Tranmere,2020-08-19,2021-01-31,Loan,Derby,,Loan,2020/21
 50951,Josh Macauley,Tranmere,2008-07-01,2010-08-01,Trainee,Trainee,Bala Town,Trainee,2008/09
-55478,Jack Mackreth,Tranmere,2010-07-01,2011-08-01,Trainee,Trainee,Barrow,Trainee,2010/11
 55478,Jack Mackreth,Tranmere,2016-01-29,2016-06-06,Signed,Macclesfield,Macclesfield,Transfer,2015/16
+55478,Jack Mackreth,Tranmere,2010-07-01,2011-08-01,Trainee,Trainee,Barrow,Trainee,2010/11
 97829,Jacob Maddox,Tranmere,2019-08-08,2019-12-24,Loan,Chelsea U21,,Loan,2019/20
 42194,Guy Madjo,Tranmere,2014-11-19,2015-07-25,Free,Aldershot,,Transfer,2014/15
 85444,Joseph Maguire,Tranmere,2021-07-06,2022-07-01,Free,Fleetwood,,Transfer,2021/22
@@ -301,16 +302,16 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 37093,David Martin,Tranmere,2009-10-10,2009-11-10,Loan,Liverpool,,Loan,2009/10
 86848,Andy Mathieson,Tranmere,2015-08-01,2016-06-01,,,,,2015/16
 15987,Pedro Miguel Matias,Tranmere,1999-08-06,1999-10-07,Monthly,SD Logrones,Walsall,Transfer,1999/00
-71520,Lois Maynard,Tranmere,2015-07-01,2017-07-01,Free,Halifax,Salford,Transfer,2015/16
 41443,Nicky Maynard,Tranmere,2021-08-31,2022-07-01,Free,Mansfield,,Transfer,2021/22
+71520,Lois Maynard,Tranmere,2015-07-01,2017-07-01,Free,Halifax,Salford,Transfer,2015/16
 51215,Danny Mayor,Tranmere,2009-01-01,2009-06-01,Loan,Preston,,Loan,2008/09
 125105,Reece McAlear,Tranmere,2022-06-09,,Free,Norwich,,Transfer,2022/23
 4961,Jason McAteer,Tranmere,2004-07-19,2007-05-31,Free,Blackburn,,Transfer,2004/05
 44173,Mark McChrystal,Tranmere,2010-08-01,2013-01-03,Free,Derry City,Bristol R,Transfer,2010/11
-21233,Chris McCready,Tranmere,2006-07-18,2007-06-07,Free,Crewe,Crewe,Transfer,2006/07
 21233,Chris McCready,Tranmere,2010-01-21,2010-06-01,Loan,Crewe,,Loan,2009/10
-69031,Luke McCullough,Tranmere,2018-08-20,2019-04-01,Loan,Man Utd,,Loan,2018/19
+21233,Chris McCready,Tranmere,2006-07-18,2007-06-07,Free,Crewe,Crewe,Transfer,2006/07
 69031,Luke McCullough,Tranmere,2020-01-06,2020-08-01,Free,Doncaster,Glentoran,Transfer,2019/20
+69031,Luke McCullough,Tranmere,2018-08-20,2019-04-01,Loan,Man Utd,,Loan,2018/19
 87751,Gerry McDonagh,Tranmere,2017-10-04,2018-01-02,Loan,Nottm Forest,,Loan,2017/18
 49727,Clayton McDonald,Tranmere,2014-08-04,2014-09-08,Free,Port Vale,Southport,Transfer,2014/15
 33803,James McEveley,Tranmere,2017-07-27,2018-07-01,Free,Sheff Utd,Warrington,Transfer,2017/18
@@ -324,14 +325,14 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 5204,Paul McLaren,Tranmere,2009-07-10,2011-01-01,Free,Rotherham,Oxford,Transfer,2009/10
 5204,Paul McLaren,Tranmere,2006-06-29,2008-08-01,Free,Sheff Wed,Bradford,Transfer,2006/07
 51474,Callum McManaman,Tranmere,2021-07-09,2022-07-01,Free,Luton,,Transfer,2021/22
-52777,Steve McNulty,Tranmere,2015-10-19,2019-07-01,Unknown,Fleetwood,York,Unknown,2015/16
 36254,Jim McNulty,Tranmere,2013-10-01,2014-01-02,Loan,Barnsley,,Loan,2013/14
+52777,Steve McNulty,Tranmere,2015-10-19,2019-07-01,Unknown,Fleetwood,York,Unknown,2015/16
 114877,Josh McPake,Tranmere,2022-01-05,2022-06-30,Loan,Rangers,,Loan,2021/22
 46270,Shane McWeeney,Tranmere,2007-02-20,2008-05-31,,,,,2006/07
 52480,Adam Mekki,Tranmere,2015-08-06,2017-07-01,Free,Barnet,Bromley,Transfer,2015/16
-5361,Micky Mellon,Tranmere,2001-03-08,2004-08-01,Free,Burnley,Kidderminster,Transfer,2000/01
-5361,Micky Mellon,Tranmere,1997-10-31,1999-01-08,300000,West Brom,Burnley,Transfer,1997/98
 5361,Micky Mellon,Tranmere,2001-03-05,2001-03-07,Loan,Blackpool,,Loan,2000/01
+5361,Micky Mellon,Tranmere,1997-10-31,1999-01-08,300000,West Brom,Burnley,Transfer,1997/98
+5361,Micky Mellon,Tranmere,2001-03-08,2004-08-01,Free,Burnley,Kidderminster,Transfer,2000/01
 51865,Arnaud Mendy,Tranmere,2010-08-31,2010-11-24,Loan,Derby,,Loan,2010/11
 104921,Chris Merrie,Tranmere,2021-06-10,,Undisc.,Wigan,,Transfer,2021/22
 41710,Ishmael Miller,Tranmere,2019-01-07,2020-07-01,Free,Bury,,Transfer,2018/19
@@ -342,17 +343,17 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 65749,Jason Mooney,Tranmere,2012-07-26,2014-05-29,Free,Wycombe,York,Transfer,2012/13
 14774,Andy Moran,Tranmere,1997-08-01,2000-08-01,Trainee,Trainee,Hereford.,Trainee,1997/98
 5578,Alan Morgan,Tranmere,1992-05-08,2002-07-29,Trainee,Trainee,Doncaster,Trainee,1991/92
-72692,Callum Morris,Tranmere,2013-07-01,2014-09-05,Signed,,Chester,Transfer,2013/14
-68138,Kieron Morris,Tranmere,2019-06-26,,Free,Walsall,,Transfer,2019/20
 68138,Kieron Morris,Tranmere,2019-01-28,2019-05-27,Loan,Walsall,,Loan,2018/19
+68138,Kieron Morris,Tranmere,2019-06-26,,Free,Walsall,,Transfer,2019/20
+72692,Callum Morris,Tranmere,2013-07-01,2014-09-05,Signed,,Chester,Transfer,2013/14
 5618,John Morrissey,Tranmere,1985-10-02,1999-05-31,8000,Everton,,Transfer,1985/86
 36463,Sam Morrow,Tranmere,2010-08-30,2011-06-16,Signed,Hibernian,Ross County,Transfer,2010/11
 70542,Paul Mullin,Tranmere,2018-06-25,2020-07-20,Undisc.,Morecambe,Cambridge U,Transfer,2018/19
 5675,John Mullin,Tranmere,2006-06-27,2008-08-01,Free,Burnley,Accrington,Transfer,2006/07
 104933,Joel Mumbongo,Tranmere,2022-07-28,,Loan,Burnley,,Loan,2022/23
 5682,Steve Mungall,Tranmere,1979-07-03,1997-05-31,Free,Chapelhall,,Transfer,1979/80
-15110,Joe Murphy,Tranmere,2020-08-22,,Free,Bury,,Transfer,2020/21
 15110,Joe Murphy,Tranmere,1998-08-01,2002-07-13,Trainee,Trainee,West Brom,Trainee,1998/99
+15110,Joe Murphy,Tranmere,2020-08-22,,Free,Bury,,Transfer,2020/21
 13800,Matt Murray,Tranmere,2006-03-21,2006-04-23,Loan,Wolves,,Loan,2005/06
 128731,Harrison Musuamba,Tranmere,2020-01-06,2021-07-01,Unknown,,,Unknown,2019/20
 13521,Thomas Myhre,Tranmere,2000-11-28,2000-12-21,Loan,Everton,,Loan,2000/01
@@ -368,18 +369,18 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 140587,Elliott Nevitt,Tranmere,2021-07-09,2023-01-11,Unknown,,Crewe,Unknown,2021/22
 5857,Shane Nicholson,Tranmere,2002-07-16,2004-06-29,Free,Stockport,Chesterfield,Transfer,2002/03
 46582,Gunnar Nielsen,Tranmere,2010-08-01,2011-03-20,Loan,Man City,,Loan,2010/11
-5877,Eric Nixon,Tranmere,1988-03-24,1988-05-31,Loan,Man City,,Loan,1987/88
 5877,Eric Nixon,Tranmere,1999-07-04,2003-07-01,Free,Stockport,Sheff Wed,Transfer,1999/00
 5877,Eric Nixon,Tranmere,1988-07-26,1997-08-27,60000,Man City,Stockport,Transfer,1988/89
+5877,Eric Nixon,Tranmere,1988-03-24,1988-05-31,Loan,Man City,,Loan,1987/88
 61258,Jon Nolan,Tranmere,2022-07-01,,Free,Ipswich,,Transfer,2022/23
 62490,Oliver Norburn,Tranmere,2017-07-01,2018-08-09,Free,Guiseley,Shrewsbury,Transfer,2017/18
 51911,James Norwood,Tranmere,2015-07-01,2019-06-10,Free,Exeter,Ipswich,Transfer,2015/16
-116933,George Nugent,Tranmere,2018-10-29,2022-07-01,,,,,2018/19
 30552,Dave Nugent,Tranmere,2021-02-01,2021-06-01,Loan,Preston,,Loan,2020/21
+116933,George Nugent,Tranmere,2018-10-29,2022-07-01,,,,,2018/19
 5912,Liam O'Brien,Tranmere,1994-01-21,1999-05-31,300000,Man Utd,,Transfer,1993/94
 15089,George O'Callaghan,Tranmere,2008-08-01,2009-05-31,Signed,Ipswich,Yeovil,Transfer,2008/09
-117422,Lee O'Connor,Tranmere,2021-08-31,,Unknown,Celtic,,Unknown,2021/22
 117422,Lee O'Connor,Tranmere,2020-08-18,2021-06-01,Loan,Celtic,,Loan,2020/21
+117422,Lee O'Connor,Tranmere,2021-08-31,,Unknown,Celtic,,Unknown,2021/22
 58154,Michael O'Halloran,Tranmere,2012-11-22,2013-04-28,Loan,Bolton,,Loan,2012/13
 28848,Steven O'Leary,Tranmere,2005-10-21,2006-04-21,Loan,Luton,,Loan,2005/06
 49649,Luke O'Neill,Tranmere,2010-01-19,2010-06-01,Loan,Leicester,,Loan,2009/10
@@ -390,8 +391,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 6025,Simon Osborn,Tranmere,2001-03-22,2001-05-08,Loan,Wolves,,Loan,2000/01
 88950,Elliot Osborne,Tranmere,2016-09-30,2016-11-01,Loan,Fleetwood,,Loan,2016/17
 32335,Jon Otsemobor,Tranmere,2013-11-28,2014-06-13,Loan,MK Dons,,Loan,2013/14
-33760,Philip Palethorpe,Tranmere,2008-08-01,2008-09-01,Free,Chester,,Transfer,2008/09
 33760,Philip Palethorpe,Tranmere,2002-08-01,2006-08-19,Trainee,Trainee,Chester,Trainee,2002/03
+33760,Philip Palethorpe,Tranmere,2008-08-01,2008-09-01,Free,Chester,,Transfer,2008/09
 53112,Liam Palmer,Tranmere,2012-07-12,2013-04-28,Loan,Sheff Wed,,Loan,2012/13
 10722,Andy Parkinson,Tranmere,1996-08-01,2003-07-16,Trainee,Trainee,Sheff Utd,Trainee,1996/97
 115884,Bailey Passant,Tranmere,2018-09-01,2020-07-01,Youth,,Marine,Trainee,2018/19
@@ -416,16 +417,16 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 60385,George Ray,Tranmere,2019-06-24,2021-06-28,Free,Crewe,Exeter,Transfer,2019/20
 60000,Eliot Richards,Tranmere,2014-05-28,2015-02-02,Free,Bristol R,Cheltenham,Transfer,2013/14
 9303,Michael Ricketts,Tranmere,2009-08-14,2010-05-31,Free,Oldham,,Transfer,2009/10
-55554,Liam Ridehalgh,Tranmere,2013-09-27,2014-06-01,Loan,Huddersfield,,Loan,2013/14
 55554,Liam Ridehalgh,Tranmere,2016-06-02,2021-06-23,Free,Huddersfield,Bradford,Transfer,2016/17
+55554,Liam Ridehalgh,Tranmere,2013-09-27,2014-06-01,Loan,Huddersfield,,Loan,2013/14
 6723,Paul Rideout,Tranmere,2000-07-12,2002-05-31,Free,Rangers,,Transfer,2000/01
 46691,Martin Riley,Tranmere,2015-07-01,2016-05-26,Free,Mansfield,Wrexham,Transfer,2015/16
 9708,Gareth Roberts,Tranmere,1999-08-13,1999-11-08,Loan,Liverpool,,Loan,1999/00
 9708,Gareth Roberts,Tranmere,1999-11-09,2006-07-15,Free,Panionios,Doncaster,Transfer,1999/00
+34287,Andy Robinson,Tranmere,2002-12-01,2003-08-12,,,Swansea,,2002/03
+34287,Andy Robinson,Tranmere,2010-03-25,2010-06-01,Loan,Swansea,,Loan,2009/10
 34287,Andy Robinson,Tranmere,2011-01-27,2011-05-31,Loan,Leeds,,Loan,2010/11
 34287,Andy Robinson,Tranmere,2011-06-28,2014-07-18,Signed,Leeds,Shrewsbury,Transfer,2011/12
-34287,Andy Robinson,Tranmere,2010-03-25,2010-06-01,Loan,Swansea,,Loan,2009/10
-34287,Andy Robinson,Tranmere,2002-12-01,2003-08-12,,,Swansea,,2002/03
 133373,Luke Robinson,Tranmere,2022-07-21,,Loan,Wigan,,Loan,2022/23
 16511,Marvin Robinson,Tranmere,2002-11-30,2003-01-30,Loan,Derby,,Loan,2002/03
 8945,Alan Rogers,Tranmere,1995-07-01,1997-07-03,Trainee,Trainee,Nottm Forest,Trainee,1995/96
@@ -440,8 +441,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 9704,Paul Shepherd,Tranmere,1999-02-23,1999-03-24,Loan,Leeds,,Loan,1998/99
 47302,Ryan Shotton,Tranmere,2008-08-29,2009-06-01,Loan,Stoke,,Loan,2008/09
 36304,Enoch Showunmi,Tranmere,2010-07-27,2012-06-12,Free,Leeds,Notts Co,Transfer,2010/11
-21776,Chris Shuker,Tranmere,2014-12-23,2016-06-01,Free,Morecambe,,Transfer,2014/15
 21776,Chris Shuker,Tranmere,2006-07-08,2010-08-01,Free,Man City,Morecambe,Transfer,2006/07
+21776,Chris Shuker,Tranmere,2014-12-23,2016-06-01,Free,Morecambe,,Transfer,2014/15
 26762,Mamady Sidibe,Tranmere,2013-02-21,2013-04-28,Loan,Stoke,,Loan,2012/13
 125460,Dynel Simeu,Tranmere,2022-09-01,2023-01-02,Loan,Southampton,,Loan,2022/23
 10723,Steve Simonsen,Tranmere,1996-08-01,1998-09-23,Trainee,Trainee,Everton,Trainee,1996/97
@@ -463,29 +464,29 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 143946,Ryan Stratulis,Tranmere,2021-08-09,,Unknown,,,Unknown,2021/22
 7718,Nicky Summerbee,Tranmere,2005-09-16,2005-10-16,Loan,Bradford,,Loan,2005/06
 44409,Richard Sutton,Tranmere,2015-07-01,2019-01-09,Free,Port Vale,Morecambe,Transfer,2015/16
-41203,Andy Taylor,Tranmere,2007-11-16,2008-01-17,Loan,Blackburn,,Loan,2007/08
-24078,Perry Taylor,Tranmere,1999-08-01,2001-05-31,Trainee,Trainee,Morecambe,Trainee,1999/00
-165326,Samuel Taylor,Tranmere,2022-07-01,,,,,,2022/23
-49472,Robert Taylor,Tranmere,2015-01-13,2015-08-07,Signed,Port Vale,Kidderminster,Transfer,2014/15
-48375,Rhys Taylor,Tranmere,2018-01-01,2018-06-01,Loan,Fylde,,Loan,2017/18
-51399,Ash Taylor,Tranmere,2009-01-01,2014-05-28,Trainee,Trainee,Aberdeen,Trainee,2008/09
-32156,Ryan Taylor,Tranmere,2002-07-01,2005-07-13,Trainee,Trainee,Wigan,Trainee,2002/03
-7820,Gareth Taylor,Tranmere,2006-07-01,2008-03-02,Free,Nottm Forest,Doncaster,Transfer,2006/07
-28843,Craig Taylor,Tranmere,2001-08-01,2002-05-31,Trainee,Trainee,,Trainee,2001/02
-87739,Corey Taylor,Tranmere,2019-07-01,2021-07-01,Free,Aston Villa,Charlton,Transfer,2019/20
 41203,Andy Taylor,Tranmere,2008-01-18,2009-07-15,Signed,Blackburn,Sheff Utd,Transfer,2007/08
+51399,Ash Taylor,Tranmere,2009-01-01,2014-05-28,Trainee,Trainee,Aberdeen,Trainee,2008/09
 7832,Scott Taylor,Tranmere,1998-10-09,2001-07-04,350000,Bolton,Stockport,Transfer,1998/99
+24078,Perry Taylor,Tranmere,1999-08-01,2001-05-31,Trainee,Trainee,Morecambe,Trainee,1999/00
+49472,Robert Taylor,Tranmere,2015-01-13,2015-08-07,Signed,Port Vale,Kidderminster,Transfer,2014/15
+165326,Samuel Taylor,Tranmere,2022-07-01,,,,,,2022/23
+87739,Corey Taylor,Tranmere,2019-07-01,2021-07-01,Free,Aston Villa,Charlton,Transfer,2019/20
+48375,Rhys Taylor,Tranmere,2018-01-01,2018-06-01,Loan,Fylde,,Loan,2017/18
+32156,Ryan Taylor,Tranmere,2002-07-01,2005-07-13,Trainee,Trainee,Wigan,Trainee,2002/03
+28843,Craig Taylor,Tranmere,2001-08-01,2002-05-31,Trainee,Trainee,,Trainee,2001/02
+41203,Andy Taylor,Tranmere,2007-11-16,2008-01-17,Loan,Blackburn,,Loan,2007/08
+7820,Gareth Taylor,Tranmere,2006-07-01,2008-03-02,Free,Nottm Forest,Doncaster,Transfer,2006/07
 18014,Gary Taylor-Fletcher,Tranmere,2015-10-16,2016-10-03,Free,Leicester,Accrington,Transfer,2015/16
 7838,Shaun Teale,Tranmere,1995-08-14,1998-05-31,450000,Bournemouth,Motherwell,Transfer,1995/96
 7874,Tony Thomas,Tranmere,1996-02-01,1997-08-06,Trainee,Trainee,Everton,Trainee,1995/96
-5556,Ian Thomas-Moore,Tranmere,2008-01-31,2011-01-26,Signed,Leeds,Rotherham,Transfer,2007/08
 5556,Ian Thomas-Moore,Tranmere,1994-07-06,1997-03-15,Trainee,Trainee,Nottm Forest,Trainee,1994/95
+5556,Ian Thomas-Moore,Tranmere,2008-01-31,2011-01-26,Signed,Leeds,Rotherham,Transfer,2007/08
 121908,Bailey Thompson,Tranmere,2019-07-10,2020-08-01,Unknown,,Tadcaster Alb.,Unknown,2019/20
-7898,Andy Thompson,Tranmere,1997-08-01,2000-08-11,Free,West Brom,Cardiff,Transfer,1997/98
-43751,Joe Thompson,Tranmere,2012-08-03,2014-08-06,Signed,Rochdale,Bury,Transfer,2012/13
 50919,Josh Thompson,Tranmere,2014-10-23,2015-08-06,Free,Portsmouth,Southport,Transfer,2014/15
+7898,Andy Thompson,Tranmere,1997-08-01,2000-08-11,Free,West Brom,Cardiff,Transfer,1997/98
 29172,John Thompson,Tranmere,2007-01-31,2007-05-06,Loan,Nottm Forest,,Loan,2006/07
 29172,John Thompson,Tranmere,2006-10-26,2006-12-06,Loan,Nottm Forest,,Loan,2006/07
+43751,Joe Thompson,Tranmere,2012-08-03,2014-08-06,Signed,Rochdale,Bury,Transfer,2012/13
 7940,Andy Thorn,Tranmere,1996-09-27,1998-02-02,Free,Wimbledon,,Transfer,1996/97
 26299,Sean Thornton,Tranmere,2001-07-01,2002-05-31,,,Sunderland,,2001/02
 134764,Jamie Timlin,Tranmere,2020-09-01,2022-07-01,Unknown,,,Unknown,2020/21
@@ -497,17 +498,17 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 76981,Jordan Turnbull,Tranmere,2022-07-26,,Unknown,Northampton,,Unknown,2022/23
 22030,Iain Turner,Tranmere,2015-08-01,2017-07-13,Free,Barnsley,Southport,Transfer,2015/16
 144533,Jay Turner-Cook,Tranmere,2023-01-31,,Loan,N'castle U21,,Loan,2022/23
-40847,James Vaughan,Tranmere,2020-01-29,2020-07-01,Loan,Wigan,,Loan,2019/20
-40847,James Vaughan,Tranmere,2020-08-11,2021-07-01,Free,Bradford,,Transfer,2020/21
 41399,Lee Vaughan,Tranmere,2015-11-23,2017-07-01,Unknown,Kidderminster,Kidderminster,Unknown,2015/16
+40847,James Vaughan,Tranmere,2020-08-11,2021-07-01,Free,Bradford,,Transfer,2020/21
+40847,James Vaughan,Tranmere,2020-01-29,2020-07-01,Loan,Wigan,,Loan,2019/20
 65293,Will Vaulks,Tranmere,2012-07-01,2013-07-01,Youth,,Falkirk,Trainee,2012/13
 69329,Brad Walker,Tranmere,2023-01-12,,Unknown,Shrewsbury,,Unknown,2022/23
 101526,Stephen Walker,Tranmere,2021-08-31,2022-05-02,Loan,Middlesbrough,,Loan,2021/22
 111844,Danny Walker-Rice,Tranmere,2017-07-01,2021-06-12,,,Bala Town,,2017/18
-49717,James Wallace,Tranmere,2012-01-21,2012-04-29,Loan,Everton,,Loan,2011/12
-49717,James Wallace,Tranmere,2012-06-26,2014-06-13,Signed,Everton,Sheff Utd,Transfer,2012/13
 49717,James Wallace,Tranmere,2017-01-15,2018-07-20,Free,Sheff Utd,Fleetwood,Transfer,2016/17
+49717,James Wallace,Tranmere,2012-06-26,2014-06-13,Signed,Everton,Sheff Utd,Transfer,2012/13
 49717,James Wallace,Tranmere,2016-11-28,2017-01-02,Loan,Sheff Utd,,Loan,2016/17
+49717,James Wallace,Tranmere,2012-01-21,2012-04-29,Loan,Everton,,Loan,2011/12
 8286,Gavin Ward,Tranmere,2006-06-28,2007-07-02,Free,Coventry,Chester,Transfer,2006/07
 80602,George Waring,Tranmere,2017-07-01,2019-01-25,Free,Stoke,Chester,Transfer,2017/18
 8299,Tony Warner,Tranmere,2011-01-01,2011-05-31,Signed,Hull,Blackpool,Transfer,2010/11
@@ -515,8 +516,8 @@ player_id,player_name,club,date_joined,date_left,fee,prev_club,next_club,transfe
 49461,Luke Waterfall,Tranmere,2008-07-01,2009-07-01,Trainee,Trainee,Ilkeston,Trainee,2008/09
 73122,Brad Watkins,Tranmere,2013-07-01,2013-11-01,Loan,Aston Villa,,Loan,2013/14
 67179,Ryan Watson,Tranmere,2021-06-19,2022-01-14,Free,MK Dons,Salford,Transfer,2021/22
-57821,Robbie Weir,Tranmere,2011-02-14,2011-05-31,Loan,York,,Loan,2010/11
 57821,Robbie Weir,Tranmere,2011-06-01,2012-05-31,Signed,York,Burton,Transfer,2011/12
+57821,Robbie Weir,Tranmere,2011-02-14,2011-05-31,Loan,York,,Loan,2010/11
 8393,Keith Welch,Tranmere,2002-08-07,2002-09-22,Free,Bristol C,Torquay,Transfer,2002/03
 32332,John Welsh,Tranmere,2009-07-13,2012-05-14,Free,Hull,Preston,Transfer,2009/10
 102631,Paddy Wharton,Tranmere,2016-01-01,2019-07-01,,,FC Utd,,2015/16
