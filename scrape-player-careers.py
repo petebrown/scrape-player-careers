@@ -28,6 +28,7 @@ def get_player_list(url):
     r = session.get(url)
     doc = BeautifulSoup(r.text, 'html.parser')
     
+    season = doc.select_one('.seasonSelector h3').text
     player_list = doc.select('table.center tbody tr')
 
     all_players = []
@@ -65,25 +66,29 @@ def get_player_career(player_dict):
     career["player_name"] = player_name
     career["player_id"] = player_id
 
-    career = career[["player_id", "player_name", "CLUB", "FROM", "TO", "FEE"]].rename(columns = {"CLUB": "club",
-                              "FROM": "date_joined",
-                              "TO": "date_left",
-                              "FEE": "fee"})
+    career = career[["player_id", "player_name", "CLUB", "FROM", "TO", "FEE"]].rename(columns = {
+        "CLUB": "club",
+        "FROM": "date_joined",
+        "TO": "date_left",
+        "FEE": "fee"}
+    )
     career.columns = career.columns.get_level_values(0)
 
-    next_club = pd.DataFrame([{"player_id": player_id,
-                               "player_name": player_name,
-                               "club": np.nan,
-                               "date_joined": np.nan,
-                               "date_left": np.nan,
-                               "fee": np.nan}])
+    next_club = pd.DataFrame([
+        {"player_id": player_id,
+         "player_name": player_name,
+         "club": np.nan,
+         "date_joined": np.nan,
+         "date_left": np.nan,
+         "fee": np.nan}])
 
-    first_club = pd.DataFrame([{"player_id": player_id,
-                               "player_name": player_name,
-                               "club": np.nan,
-                               "date_joined": np.nan,
-                               "date_left": np.nan,
-                               "fee": np.nan}])
+    first_club = pd.DataFrame([
+        {"player_id": player_id,
+         "player_name": player_name,
+         "club": np.nan,
+         "date_joined": np.nan,
+         "date_left": np.nan,
+         "fee": np.nan}])
     
     career = pd.concat([next_club, career, first_club], ignore_index = False)
     career = career.to_dict(orient="records")
@@ -113,6 +118,13 @@ def get_transfer_type(player_name, fee):
         return "Loan"
     else:
         return fee
+
+def get_home_club(df, player_id, loan_date):
+    df = df[(df.fee != "Loan") & (df.player_id == player_id) & (df.date_joined < loan_date)].copy().reset_index(drop=True)
+
+    home_club = df[df.date_joined == df.date_joined.max()].club.values[0]
+
+    return(home_club)
 
 def date_to_season(date):
     year = date.year
@@ -144,9 +156,13 @@ def main():
     careers = [career for sublist in careers for career in sublist]
 
     df = pd.DataFrame(careers).reset_index(drop=True)
+
+    df["date_joined"] = pd.to_datetime(df["date_joined"])
+    df["date_left"] = pd.to_datetime(df["date_left"])
+
     df["prev_club"] = np.nan
     df["next_club"] = np.nan
-
+    
     loans = df[((df["club"] == "Tranmere") & (df["fee"] == "Loan")) | ((df["club"] != "Tranmere") & (df["fee"] != "Loan"))].copy()
     loans["prev_club"] = loans.club.shift(-1)
     loans["next_club"] = loans.club.shift(1)
@@ -159,13 +175,12 @@ def main():
 
     df.update(non_loans)
 
-    multi_loans = df[df.player_id.isin(df[df.prev_club == "Tranmere"].player_id)].copy()
-    multi_loans["prev_club"] = multi_loans["prev_club"].shift(-1)
-    multi_loans["prev_club"] = multi_loans.apply(lambda x: x.prev_club if x.prev_club == "Tranmere" else x.prev_club, axis=1)
-    multi_loans["prev_club1"] = multi_loans["prev_club"].shift(-1)
-    multi_loans["prev_club"] = multi_loans.apply(lambda x: x.prev_club1 if x.prev_club == "Tranmere" else x.prev_club, axis=1)
-    multi_loans = multi_loans.drop(["prev_club1"], axis=1)
-    multi_loans
+    multi_loanees = df[(df.fee == "Loan") & (df.club == "Tranmere")].player_id.value_counts().to_frame().reset_index(drop=False)
+    multi_loanee_ids = multi_loanees[multi_loanees["count"] > 1]["player_id"].values
+
+    multi_loans = df[(df.player_id.isin(multi_loanee_ids)) & (df.club == "Tranmere") & (df.fee == "Loan")].copy()
+
+    multi_loans["prev_club"] = multi_loans.apply(lambda x: get_home_club(df, x.player_id, x.date_joined), axis = 1)
 
     df.update(multi_loans)
 
@@ -178,13 +193,15 @@ def main():
     df.loc[df.transfer_type == "Loan", "next_club"] = np.nan
 
     df["fee"] = df.fee.str.replace("£", "").str.replace(",", "")
-    df["date_joined"] = pd.to_datetime(df["date_joined"])
-    df["date_left"] = pd.to_datetime(df["date_left"])
 
     df["season"] = df.apply(lambda x: date_to_season(x.date_joined), axis=1)
 
-    correct_clubs = pd.DataFrame([{"player_id": "73901", "prev_club": "Liverpool"},
-                {"player_id": "78589", "prev_club": "Cardiff City"}]).sort_values("player_id")
+    correct_clubs = pd.DataFrame([
+        {"player_id": "73901", "prev_club": "Liverpool"},
+        {"player_id": "78589", "prev_club": "Cardiff City"},
+        {"player_id": "115214", "prev_club": "US Alessandria"},
+        {"player_id": "133373", "prev_club": "Wigan Athletic"}]
+    ).sort_values("player_id")
 
     club_updates = df[df.player_id.isin(correct_clubs.player_id)].sort_values("player_id").copy()
 
@@ -195,7 +212,7 @@ def main():
     df = df.sort_values("player_id", ascending=False, ignore_index=True)
 
     df["surname"] = df.player_name.str.split(" ").str[-1]
-    df = df.sort_values(["surname"]).drop("surname", axis=1)
+    df = df.sort_values(["player_name", "date_joined"]).drop("surname", axis=1)
 
     return df
 
